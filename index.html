@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pizzeria Italo's</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          Pizzeria Italo's
+          <i class="bi bi-emoji-wink"></i>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasDarkNavbar"
+          aria-controls="offcanvasDarkNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end text-bg-dark"
+          tabindex="-1"
+          id="offcanvasDarkNavbar"
+          aria-labelledby="offcanvasDarkNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+              pizzeria italos
+              <i class="bi bi-emoji-wink"></i>
+            </h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">acerca de nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="galery.html">galeria</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  target="_blank"
+                  href="https://api.whatsapp.com/send?phone=51953249784&app=facebook&entry_point=page_cta&fbclid=IwAR306H7Jht08lM7y32oMBMhgRT0I5IO40twkSUOGl6bivKwo5P4GJUcjlhg"
+                >
+                  escribenos
+                  <i class="bi bi-whatsapp"></i>
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  platillos
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="#pizzas">pizzas</a></li>
+                  <li><a class="dropdown-item" href="#pastas">pastas</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#broaster"
+                      >broasters y salchipapas</a
+                    >
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#bebidas">bebidas</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- hero -->
+    <div class="hero">
+      <div class="content">
+        <h1>italos pizzeria</h1>
+        <h2>elige el platillo que mas te guste</h2>
+        <div class="d-flex justify-content-between">
+          <a class="btn btn-sm btn-outline-light" href="#pizzas">pizzas</a>
+          <a class="btn btn-sm btn-outline-light" href="#pastas">pastas</a>
+          <a class="btn btn-sm btn-outline-light" href="#broaster"
+            >broasters y salchipapas</a
+          >
+        </div>
+      </div>
+
+      <div class="hero__wave" style="overflow: hidden">
+        <svg
+          viewBox="0 0 500 150"
+          preserveAspectRatio="none"
+          style="height: 100%; width: 100%"
+        >
+          <path
+            d="M0.00,49.99 C150.00,150.00 349.20,-49.99 500.00,49.99 L500.00,150.00 L0.00,150.00 Z"
+            style="stroke: none; fill: #fff"
+          ></path>
+        </svg>
+      </div>
+    </div>
+
+    <!-- pizzas -->
+    <section class="container" id="pizzas">
+      <h2 class="h1 text-uppercase">pizzas</h2>
+      <div
+        class="d-flex flex-column flex-md-row justify-content-between flex-wrap"
+      >
+        <div class="card mb-3" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                data-src="img/home/pizza1.jpg"
+                class="img-fluid rounded-start h-100"
+                alt="..."
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Ejemplo de pizza</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ad
+                  recusandae sit incidunt eius possimus, sapiente veniam a
+                  magnam facilis.
+                </p>
+                <hr />
+                <p class="card-text">
+                  <small class="text-muted">precio $100</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                data-src="img/home/pizza1.jpg"
+                class="img-fluid rounded-start h-100"
+                alt="..."
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Ejemplo de pizza</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ad
+                  recusandae sit incidunt eius possimus, sapiente veniam a
+                  magnam facilis.
+                </p>
+                <hr />
+                <p class="card-text">
+                  <small class="text-muted">precio $100</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                data-src="img/home/pizza1.jpg"
+                class="img-fluid rounded-start h-100"
+                alt="..."
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Ejemplo de pizza</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ad
+                  recusandae sit incidunt eius possimus, sapiente veniam a
+                  magnam facilis.
+                </p>
+                <hr />
+                <p class="card-text">
+                  <small class="text-muted">precio $100</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                data-src="img/home/pizza1.jpg"
+                class="img-fluid rounded-start h-100"
+                alt="..."
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Ejemplo de pizza</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ad
+                  recusandae sit incidunt eius possimus, sapiente veniam a
+                  magnam facilis.
+                </p>
+                <hr />
+                <p class="card-text">
+                  <small class="text-muted">precio $100</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- pastas -->
+    <section class="container" id="pastas">
+      <h2 class="h1 text-uppercase">pastas</h2>
+      <div
+        class="d-flex flex-column flex-md-row justify-content-between flex-wrap"
+      >
+        <div class="card mb-3" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                data-src="img/home/pasta1.jpg"
+                class="img-fluid rounded-start h-100"
+                alt="..."
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Ejemplo de pasta</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ad
+                  recusandae sit incidunt eius possimus, sapiente veniam a
+                  magnam facilis.
+                </p>
+                <hr />
+                <p class="card-text">
+                  <small class="text-muted">precio $100</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                data-src="img/home/pasta1.jpg"
+                class="img-fluid rounded-start h-100"
+                alt="..."
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Ejemplo de pasta</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ad
+                  recusandae sit incidunt eius possimus, sapiente veniam a
+                  magnam facilis.
+                </p>
+                <hr />
+                <p class="card-text">
+                  <small class="text-muted">precio $100</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                data-src="img/home/pasta1.jpg"
+                class="img-fluid rounded-start h-100"
+                alt="..."
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Ejemplo de pasta</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ad
+                  recusandae sit incidunt eius possimus, sapiente veniam a
+                  magnam facilis.
+                </p>
+                <hr />
+                <p class="card-text">
+                  <small class="text-muted">precio $100</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                data-src="img/home/pasta1.jpg"
+                class="img-fluid rounded-start h-100"
+                alt="..."
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Ejemplo de pasta</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ad
+                  recusandae sit incidunt eius possimus, sapiente veniam a
+                  magnam facilis.
+                </p>
+                <hr />
+                <p class="card-text">
+                  <small class="text-muted">precio $100</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- broasters y salchipapas -->
+    <section class="container" id="broaster">
+      <h2 class="h1 text-uppercase">broasters y salchipapas</h2>
+      <div
+        class="d-flex flex-column flex-md-row justify-content-between flex-wrap"
+      >
+        <div class="card mb-3" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                data-src="img/home/broaster.jpg"
+                class="img-fluid rounded-start h-100"
+                alt="..."
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Ejemplo de broaster/salchipapa</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ad
+                  recusandae sit incidunt eius possimus, sapiente veniam a
+                  magnam facilis.
+                </p>
+                <hr />
+                <p class="card-text">
+                  <small class="text-muted">precio $100</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                data-src="img/home/broaster.jpg"
+                class="img-fluid rounded-start h-100"
+                alt="..."
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Ejemplo de broaster/salchipapa</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ad
+                  recusandae sit incidunt eius possimus, sapiente veniam a
+                  magnam facilis.
+                </p>
+                <hr />
+                <p class="card-text">
+                  <small class="text-muted">precio $100</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                data-src="img/home/broaster.jpg"
+                class="img-fluid rounded-start h-100"
+                alt="..."
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Ejemplo de broaster/salchipapa</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ad
+                  recusandae sit incidunt eius possimus, sapiente veniam a
+                  magnam facilis.
+                </p>
+                <hr />
+                <p class="card-text">
+                  <small class="text-muted">precio $100</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                data-src="img/home/broaster.jpg"
+                class="img-fluid rounded-start h-100"
+                alt="..."
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Ejemplo de broaster/salchipapa</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ad
+                  recusandae sit incidunt eius possimus, sapiente veniam a
+                  magnam facilis.
+                </p>
+                <hr />
+                <p class="card-text">
+                  <small class="text-muted">precio $100</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- bebidas -->
+    <section class="container" id="bebidas">
+      <h2 class="text-center text-uppercase">bebidas</h2>
+      <div
+        class="d-flex flex-column flex-md-row justify-content-between flex-wrap"
+      >
+        <div class="card mb-3" style="width: 18rem">
+          <img data-src="img/home/bebida1.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <strong class="card-title">Ejemplo de bebida</strong>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <hr />
+            <p class="card-text">precio $100</p>
+          </div>
+        </div>
+        <div class="card mb-3" style="width: 18rem">
+          <img data-src="img/home/bebida1.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <strong class="card-title">Ejemplo de bebida</strong>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <hr />
+            <p class="card-text">precio $100</p>
+          </div>
+        </div>
+        <div class="card mb-3" style="width: 18rem">
+          <img data-src="img/home/bebida1.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <strong class="card-title">Ejemplo de bebida</strong>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <hr />
+            <p class="card-text">precio $100</p>
+          </div>
+        </div>
+        <div class="card mb-3" style="width: 18rem">
+          <img data-src="img/home/bebida1.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <strong class="card-title">Ejemplo de bebida</strong>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <hr />
+            <p class="card-text">precio $100</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>

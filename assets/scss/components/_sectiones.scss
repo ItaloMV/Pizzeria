@@ -1,0 +1,15 @@
+@import "_variables.scss";
+
+#pastas,
+#pizzas,
+#broaster,
+#bebidas {
+  h2 {
+    font-family: "Ubuntu", sans-serif;
+    color: $primary_color;
+  }
+
+  .card-title{
+    color: $dark_primary_color;
+  }
+}
