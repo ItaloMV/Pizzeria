@@ -1,27 +1,54 @@
 @import "_variables.scss";
 
-.about_contenedor{
-    height: 100vh;
-    background-image: url('../../img/about/background_card.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: grid;
-    place-items: center left;
+.about_contenedor {
+  height: 100vh;
+  background-image: url("../../img/about/background_card.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  place-items: center left;
 
-    .about_texto{
-        margin-left: 1rem;
-        color: $about_white;
-        max-width: 450px;
-        text-align: justify;
-        font-family: "Ubuntu", sans-serif;
-    }
+  .about_texto {
+    margin-left: 1rem;
+    color: $about_white;
+    max-width: 450px;
+    text-align: justify;
+    font-family: "Ubuntu", sans-serif;
+  }
 }
 
-.contacto{
-    h2{
-        font-family: 'Ubuntu', sans-serif;
-        color: $primary_color;
-        padding: 1rem;
-    }
+.contacto {
+  h2 {
+    font-family: "Ubuntu", sans-serif;
+    color: $primary_color;
+    padding: 1rem;
+  }
+}
+
+.btn-primary {
+  background-color: $blue_color;
+  &:hover {
+    background-color: lighten($blue_color, 10%);
+    outline: none;
+    border: none;
+  }
+}
+
+.btn-danger {
+  background-color: $primary_color;
+  &:hover {
+    background-color: lighten($primary_color, 10%);
+    outline: none;
+    border: none;
+  }
+}
+
+.btn-success {
+  background-color: $green_color;
+  &:hover {
+    background-color: lighten($green_color, 10%);
+    outline: none;
+    border: none;
+  }
 }

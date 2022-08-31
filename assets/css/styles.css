@@ -113,8 +113,29 @@ img {
     font-family: "Ubuntu", sans-serif; }
 
 .contacto h2 {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   color: #a8201a;
   padding: 1rem; }
+
+.btn-primary {
+  background-color: #0075C4; }
+  .btn-primary:hover {
+    background-color: #0093f7;
+    outline: none;
+    border: none; }
+
+.btn-danger {
+  background-color: #a8201a; }
+  .btn-danger:hover {
+    background-color: #d42821;
+    outline: none;
+    border: none; }
+
+.btn-success {
+  background-color: #32936F; }
+  .btn-success:hover {
+    background-color: #3fb98c;
+    outline: none;
+    border: none; }
 
 /*# sourceMappingURL=styles.css.map */
